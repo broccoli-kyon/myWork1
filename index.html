@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/mydesign.css">
+  </head>
+  <body>
+    <div id="wrapper">
+
+      <h1>post anything you like.</h1>
+      <div class="container">
+
+        <div class="list-box">
+
+          <p class="list-category">work</p>
+          <ul id="work" class="list"></ul>
+        
+        </div>
+
+        <div class="list-box">
+          
+          <p class="list-category">private</p>
+          <ul id="pri" class="list"></ul>
+        
+        </div>
+        <div class="list-box">
+
+          <p class="list-category">other</p>
+          <ul id="other" class="list"></ul>
+
+        </div>
+      </div>
+
+      <div class="form-box">
+        
+        <form onsubmit="return false">
+
+          <input type="text" id="memo" placeholder="write here."></input>
+          <select id="category">
+
+            <option value="0">work</option>
+            <option value="1">private</option>
+            <option value="2">other</option>
+
+          </select>
+
+        </form>
+
+        <p id="add">add</p>
+        
+      </div>
+      
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
